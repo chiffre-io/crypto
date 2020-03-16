@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@47ng/cloak": "^0.15.1",
-    "@47ng/codec": "^0.4.0",
+    "@47ng/codec": "^0.5.0",
     "@chiffre/crypto-box": "^1.0.0",
     "@stablelib/tss": "^1.0.0",
     "secure-remote-password": "^0.3.1",
