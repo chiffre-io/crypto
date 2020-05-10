@@ -18,12 +18,20 @@ export async function createSignupEntities(username: string, password: string) {
   const unlockedKeychain = createKeychain()
   const lockedKeychain = await lockKeychain(unlockedKeychain, keychainKey)
   return {
-    ...srpEntities,
-    masterSalt,
-    shards,
-    keychainKey: encryptedKeychainKey,
-    keychain: {
-      ...lockedKeychain
+    client: {
+      masterKey,
+      keychainKey,
+      unlockedKeychain,
+      masterKeyShard: shards[0]
+    },
+    server: {
+      ...srpEntities,
+      masterSalt,
+      masterKeyShard: shards[1],
+      keychainKey: encryptedKeychainKey,
+      keychain: {
+        ...lockedKeychain
+      }
     }
   }
 }
