@@ -54,7 +54,9 @@ export async function pbkdf2DeriveBytes(
           name: 'PBKDF2',
           salt,
           iterations: rounds,
-          hash
+          hash: {
+            name: hash
+          }
         },
         key,
         length << 3 // bytes -> bits
