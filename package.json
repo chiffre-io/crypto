@@ -31,7 +31,7 @@
     "ci": "run-s build test"
   },
   "dependencies": {
-    "@47ng/cloak": "^0.15.1",
+    "@47ng/cloak": "^1.0.0",
     "@47ng/codec": "^1.0.0",
     "@chiffre/crypto-box": "^1.0.1",
     "@stablelib/tss": "^1.0.0",

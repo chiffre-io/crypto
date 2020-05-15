@@ -2,27 +2,19 @@
 # yarn lockfile v1
 
 
-"@47ng/cloak@^0.15.1":
-  version "0.15.1"
-  resolved "https://registry.yarnpkg.com/@47ng/cloak/-/cloak-0.15.1.tgz#260dd64e19a3e7972270310db420445f7b5f9972"
-  integrity sha512-+h19lUqztIRl909t3sgQY+Dvff6NPrEry6fekKQ/OYyed1/O6z1M2WhUHB7zkna0Y8y26MysdGsdtxkyiH3H3w==
+"@47ng/cloak@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@47ng/cloak/-/cloak-1.0.0.tgz#3ba41a8b35ea5da6bda4b5d43b9d73ce6eaf9d53"
+  integrity sha512-WcD8fs8PcS+MP3RmyL2Bz4zrs43pZ+COi+EClf6UdZCCCcT1mwFn+7DLFj2x+Uaq9vEw/wm9NSx45HUrFXgYAg==
   dependencies:
-    "@47ng/codec" "^0.3.1"
+    "@47ng/codec" "^1.0.0"
     "@stablelib/base64" "^1.0.0"
     "@stablelib/hex" "^1.0.0"
     "@stablelib/utf8" "^1.0.0"
-    chalk "^3.0.0"
-    commander "^4.1.0"
+    chalk "^4.0.0"
+    commander "^5.1.0"
     dotenv "^8.2.0"
     s-ago "^2.1.0"
-
-"@47ng/codec@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@47ng/codec/-/codec-0.3.1.tgz#7afed5ec4ce741f220f4e2160428825212251031"
-  integrity sha512-BOd4HkzrUeZsAt1y9cirNwenBqGvblpB/LcQ87Bl+Ssm2ZCo7xVQ0w2ECq+iYCJaMv18XuogsMNW/uzsr5uE7w==
-  dependencies:
-    "@stablelib/base64" "^1.0.0"
-    "@stablelib/hex" "^1.0.0"
 
 "@47ng/codec@^0.5.0":
   version "0.5.0"
@@ -1315,10 +1307,10 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^4.1.0:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
-  integrity sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==
+commander@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-5.1.0.tgz#46abbd1652f8e059bddaef99bbdcb2ad9cf179ae"
+  integrity sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==
 
 commitlint@^8.3.5:
   version "8.3.5"
