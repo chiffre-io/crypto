@@ -41,7 +41,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@types/faker": "^4.1.11",
-    "@types/jest": "^25.2.1",
+    "@types/jest": "^26.0.0",
     "@types/node": "^14.0.0",
     "commitlint": "^8.3.5",
     "faker": "^4.1.0",
