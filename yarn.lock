@@ -3,18 +3,18 @@
 
 
 "@47ng/cloak@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@47ng/cloak/-/cloak-1.0.0.tgz#3ba41a8b35ea5da6bda4b5d43b9d73ce6eaf9d53"
-  integrity sha512-WcD8fs8PcS+MP3RmyL2Bz4zrs43pZ+COi+EClf6UdZCCCcT1mwFn+7DLFj2x+Uaq9vEw/wm9NSx45HUrFXgYAg==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@47ng/cloak/-/cloak-1.0.1.tgz#b691ed875afdbcfb8da60aaff6f3964e589ba5f3"
+  integrity sha512-tvyQBuzfCdA6W4yYvqp7Ddd9wHYPZ2q8BCaks10Z/L4Ee3doVf6HJkLnHv12vP/sLowmtp7BItLxt2LHRP4SNg==
   dependencies:
     "@47ng/codec" "^1.0.0"
     "@stablelib/base64" "^1.0.0"
     "@stablelib/hex" "^1.0.0"
     "@stablelib/utf8" "^1.0.0"
-    chalk "^4.0.0"
-    commander "^5.1.0"
+    chalk "^4.1.0"
+    commander "^6.2.0"
     dotenv "^8.2.0"
-    s-ago "^2.1.0"
+    s-ago "^2.2.0"
 
 "@47ng/codec@^0.5.0":
   version "0.5.0"
@@ -1204,7 +1204,7 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
-chalk@4.1.0, chalk@^4.0.0:
+chalk@4.1.0, chalk@^4.0.0, chalk@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
   integrity sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
@@ -1304,10 +1304,10 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-5.1.0.tgz#46abbd1652f8e059bddaef99bbdcb2ad9cf179ae"
-  integrity sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==
+commander@^6.2.0:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
+  integrity sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
 
 commitlint@^11.0.0:
   version "11.0.0"
@@ -3906,10 +3906,10 @@ rsvp@^4.8.4:
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
   integrity sha512-nfMOlASu9OnRJo1mbEk2cz0D56a1MBNrJ7orjRZQG10XDyuvwksKbuXNp6qa+kbn839HwjwhBzhFmdsaEAfauA==
 
-s-ago@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/s-ago/-/s-ago-2.1.0.tgz#70ac180803cbb6af22480caa379215d6abb6b50e"
-  integrity sha512-7leN5IaS79lNyO3s47NHQfMBgYLjx0IEWipN1VSf5uX7Jp1N8sX/2TrNJX30MPM63admF10hQOZFCzej8O4t3g==
+s-ago@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/s-ago/-/s-ago-2.2.0.tgz#4143a9d0176b3100dcf649c78e8a1ec8a59b1312"
+  integrity sha512-t6Q/aFCCJSBf5UUkR/WH0mDHX8EGm2IBQ7nQLobVLsdxOlkryYMbOlwu2D4Cf7jPUp0v1LhfPgvIZNoi9k8lUA==
 
 safe-buffer@^5.0.1, safe-buffer@^5.1.2, safe-buffer@~5.2.0:
   version "5.2.0"
